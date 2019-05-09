@@ -2,7 +2,7 @@
 body {
 	margin: 0;
 	padding: 0;
-	background: #FFFFFF;
+	background: rgb(120,120,150);
 	font-family: 'Open Sans', sans-serif;
 	font-size: 13px;
 	color: #3B3B3B;
@@ -80,7 +80,8 @@ a:hover {
 }
 
 #logo h1 span {
-	color: rgb(100,100,255);
+	/*color: rgb(100,100,255);*/
+	color: #F6B300;
 }
 
 #logo p {
@@ -185,14 +186,15 @@ a:hover {
 }
 
 #menu a:hover, #menu .current_page_item a {
-	background: rgb(100,100,255);
+	background: #F6B300;
+	color: #000000;
 	border-radius: 8px;
 	text-decoration: none;
-	color: rgb(255,255,255);
 }
 
 #menu .current_page_item a {
-	background: rgb(100,100,255);
+	background: #F6B300;
+	color: #000000;
 	border-radius: 8px;
 }
 
