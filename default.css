@@ -38,6 +38,11 @@
 	{
 		line-height: 180%;
 	}
+
+	p.left
+	{
+		text-align:left;
+	}
 	
 	strong
 	{
@@ -103,6 +108,12 @@
 /*********************************************************************************/
 /* List Styles                                                                   */
 /*********************************************************************************/
+	ul.circle
+	{
+		padding-left: 2em;
+		list-style-type: circle;
+		text-align: left;
+	}
 
 	ul.style1
 	{
@@ -364,7 +375,7 @@
 	
 	.title h2
 	{
-		text-transform: lowercase;
+		text-transform: capitalize;
 		font-size: 2.8em;
 	}
 	
