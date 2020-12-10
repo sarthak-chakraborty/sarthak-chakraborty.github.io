@@ -11,6 +11,7 @@
 	<link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
 
 </head>
+
 <body>
 <div id="page" class="container">
 	<div id="header">
@@ -30,6 +31,7 @@
 		</div>
 	</div>
 	<div id="main">
+		<a href="#" onclick="topFunction()" id="topBtn" title="Go to top"><span></span></a>
 		<div id="banner">
 			<img src="images/pic01.jpg" width="1000" height="400" alt="" class="image-full" />
 		</div>
@@ -38,7 +40,7 @@
 				<h2>Welcome All to my Page!</h2>
 				<!-- <span class="byline">Donec leo, vivamus fermentum nibh in augue praesent a lacus at urna congue</span> -->
 			</div>
-			<p>I am <strong>Sarthak Chakraborty</strong>, a final-year undergraduate Dual Degree (M. Tech 5 year) student from the Department of Computer Science and Engineering at the Indian Institute of Technology Kharagpur. I am an aspiring researcher in the field of Machine Learning and Deep Learning. I am cuurently working on my <strong>M.Tech thesis titled "Cross-Chain Training of Neural Networks via Blockchain Interoperability"</strong> under <strong><a href="http://cse.iitkgp.ac.in/~sandipc/index.html">Prof. Sandip Chakraborty</a></strong>. I have also completed my <strong>B.Tech thesis titled "PARIMA: Viewport Adaptive 360-degree Video Streaming"</strong> under the same professor. I also have experience in fields like Federated Learning, Numerical Computations, Emotion Detection and Semi-Supervised Learning which I have gained in my internships and projects.</p>
+			<p>I am <strong>Sarthak Chakraborty</strong>, a final-year undergraduate Dual Degree (M. Tech 5 year) student from the Department of Computer Science and Engineering at the Indian Institute of Technology Kharagpur. I am an aspiring researcher in the field of Machine Learning and Deep Learning. I am cuurently working on my <strong>M.Tech thesis titled "Cross-Chain Training of Neural Networks via Blockchain Interoperability"</strong> under <strong><a href="http://cse.iitkgp.ac.in/~sandipc/index.html">Prof. Sandip Chakraborty</a></strong>. I have also recently completed my <strong>B.Tech thesis titled "PARIMA: Viewport Adaptive 360-degree Video Streaming"</strong> under the same professor. I also have experience in fields like Federated Learning, Numerical Computations, Emotion Detection and Semi-Supervised Learning which I have gained in my internships and projects.</p>
 
 			<p class="left"> My broad interests lies in the following fields:
 				<ul class="circle">
@@ -51,7 +53,7 @@
 				</ul>
 			</p>
 				
-			<p class="left"> Apart from my technical prowess, I am an avid reader, an adventure lover, sports enthusiast, a travel geek and a connoisseur of art and film-making. I like to read books and some of my favourite reads are <strong>Animal Farm, 1984, The Da Vinci Code and Recursion</strong>. In addition to that few of my favourite movies are <strong>The Shawshank Redemption, Parasite, Fight Club and The Godfather</strong></p>.
+			<p class="left"> Apart from my technical prowess, I am an avid reader, an adventure lover, sports enthusiast, a travel geek and a connoisseur of art and film-making. I like to read books and some of my favourite reads are <strong>Animal Farm, 1984, The Da Vinci Code</strong> and <strong>Recursion</strong>. In addition to that few of my favourite movies are <strong>The Shawshank Redemption, Parasite, Fight Club</strong> and <strong>The Godfather</strong></p>.
 
 		</div>
 		<div id="featured">
@@ -115,5 +117,30 @@
 		</div>
 	</div>
 </div>
+
+
+<script>	
+//Get the button
+var mybutton = document.getElementById("topBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+
 </body>
 </html>
