@@ -4,8 +4,13 @@
     font-style: normal;
 }
 
-.container {
+.container-outer {
   font-family: 'Raleway';
+  width: 100%; 
+  margin-top: 0; }
+.container-header {
+}
+.container {
   max-width: 1000px; }
 .header {
   margin-top: 6rem;
@@ -117,7 +122,7 @@ td {
 .navbar,
 .navbar-spacer {
   width: 100%;
-  background: #fff;
+  background: #fff7b3;;
   z-index: 99;
   border-top: 1px solid #eee;
   border-bottom: 1px solid #eee; }
@@ -125,9 +130,14 @@ td {
   display: none;
 }
 .navbar > .container {
-  width: 100%; }
+  width: 100%; 
+  display: flex;
+  justify-content: space-around;
+
+}
 .navbar-list {
   display: none;
+  text-align: center;
   list-style: none;
   margin-bottom: 0; }
 .always-display-navbar .navbar-list {
