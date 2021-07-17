@@ -1,146 +1,347 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
-	<title>Sarthak Chakraborty</title>
-	<meta name="keywords" content="" />
-	<meta name="description" content="" />
-	<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
-	<link href="default.css" rel="stylesheet" type="text/css" media="all" />
-	<link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
 
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="keywords" content="" />
+  <title>Sarthak Chakraborty</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="http://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="dist/css/normalize.css">
+  <link rel="stylesheet" href="dist/css/skeleton.css">
+  <link rel="stylesheet" href="css/custom.css">
+  <link rel="icon" type="image/png" href="images/favicon.ico">
 </head>
 
+
 <body>
-<div id="page" class="container">
-	<div id="header">
-		<div id="logo">
-			<img src="images/pic05.jpg" width="150" height="150" alt="" />
-			<h1><a href="#">Sarthak Chakraborty</a></h1>
-			<span>Undergraduate Student</span>
-		</div>
-		<div id="menu">
-			<ul>
-				<li class="current_page_item"><a href="#" accesskey="1" title="">Home</a></li>
-				<li><a href="projects.html" accesskey="2" title="">Publications & Projects</a></li>
-				<li><a href="posts.html" accesskey="3" title="">Recent Posts</a></li>
-				<li><a href="https://drive.google.com/file/d/1Ltgl83Aqo8DrlXQTbnlLJlA7_EEe93k7/view?usp=sharing" target="blank" accesskey="4" title="">Curriculum Vitae</a></li>
-				<li><a href="contact.html" accesskey="5" title="">Contact Me</a></li>
-			</ul>
-		</div>
-	</div>
-	<div id="main">
-		<a href="#" onclick="topFunction()" id="topBtn" title="Go to top"><span></span></a>
-		<div id="banner">
-			<img src="images/pic01.jpg" width="1000" height="400" alt="" class="image-full" />
-		</div>
-		<div id="welcome">
-			<div class="title">
-				<h2>Welcome All to my Page!</h2>
-				<!-- <span class="byline">Donec leo, vivamus fermentum nibh in augue praesent a lacus at urna congue</span> -->
-			</div>
-			<p>I am <strong>Sarthak Chakraborty</strong>, a final-year undergraduate Dual Degree (M. Tech 5 year) student from the Department of Computer Science and Engineering at the Indian Institute of Technology Kharagpur. I am an aspiring researcher in the field of Machine Learning for Systems and Systems Design. I am curently working on my <strong>M.Tech thesis titled "Cross-Chain Training of Learning Models via Blockchain Interoperability"</strong> under <strong><a href="http://cse.iitkgp.ac.in/~sandipc/index.html">Prof. Sandip Chakraborty</a></strong>. I have also recently completed my <strong>B.Tech thesis titled "PARIMA: Viewport Adaptive 360-degree Video Streaming"</strong> under the same professor. I also have experience in fields like Federated Learning, Numerical Computations, Emotion Detection and Semi-Supervised Learning which I have gained in my internships and projects.</p>
 
-			<p class="left"> My broad interests lies in the following fields:
-				<ul class="circle">
-					<li> Machine Learning </li>
-					<li> ML for Systems </li>
-					<li> Deep Learning </li>
-					<li> Statistics </li>
-					<li> Operating Systems </li>
-					<li> Distributed Systems </li>
-				</ul>
-			</p>
-				
-			<p class="left"> Apart from my technical prowess, I am an avid reader(<a href="https://www.goodreads.com/user/show/91185305-sarthak-chakraborty">goodreads</a>), an adventure lover, sports enthusiast, a travel geek and a connoisseur of art and film-making. I like to read books and some of my favourite reads are <strong>Animal Farm, 1984, To Kill a Mockingbird</strong> and <strong>A Brief History of Time</strong>. In addition to that few of my favourite movies are <strong>The Shawshank Redemption, Parasite, Fight Club</strong> and <strong>The Godfather</strong></p>.
+<div class="container">
+  <!-- Header -->
+  <section class="header">
+    <img class="circle" alt="Picture of Sarthak" src="images/pic05.jpg" width="200" height="200">
+    <h1 class="name">Sarthak Chakraborty</h1>
+    <h2 class="description">Research Associate, Adobe India<br><small>Data-driven Systems, Insights and Experiences</small></h2>
+  </section>
+  
+  <!-- Navbar -->
+  <div class="navbar-spacer"></div>
+  <nav class="navbar">
+    <div class="container">
+      <div class="navbar-toggle"><i class="fa fa-bars"></i></div>
+      <ul class="navbar-list">
+        <li class="navbar-item"><a class="navbar-link" href="#about">About Me</a></li>
+        <li class="navbar-item"><a class="navbar-link" href="#news">Latest News</a></li>
+        <li class="navbar-item"><a class="navbar-link" href="#publications">Publications</a></li>
+        <li class="navbar-item"><a class="navbar-link" href="#internships">Internships</a></li>
+        <!-- <li class="navbar-item"><a class="navbar-link" href="#projects">Projects</a></li> -->
+        <li class="navbar-item"><a class="navbar-link" href="#teaching">Teaching</a></li>
+        <li class="navbar-item"><a class="navbar-link" href="#blogs">Blogs</a></li>
+        <li class="navbar-item"><a class="navbar-link" href="#contact">Contact</a></li>
+        <li class="navbar-item"><a class="navbar-link" href="cv/cv.pdf" target="_blank">CV</a></li>
+      </ul>
+    </div>
+  </nav>
+  
+  <!-- My Introduction -->
+  <div class="row docs-section" id="about">
+    <h4 class="docs-header">About Me</h4>
+        <p>
+        I am <strong>Sarthak Chakraborty</strong>, currently working as a Research Associate at <a href="https://research.adobe.com/careers/bangalore/">Big Data Experience Lab, Adobe Research, India</a>. I am a part of the 'Data-driven Systems, Insights and Experiences' sub-group and will be collaborating with multiple excellent researchers to try to develop and design novel systems and algorithms pertaining to several diverse tasks.
+        </p>
 
-		</div>
-		<div id="featured">
-			<div class="title">
-				<h2>Experience</h2>
-				<span class="byline">Timeline of my Internship and Work Experiences</span>
-			</div>
-			<ul class="style1">
-				<li class="first">
-					<p class="date"><a href="#">April-July<b>2020</b></a></p>
-					<h3>Summer Research Internship</h3>
-					<p><strong>BigData Experience Lab, Adobe Inc.</strong></p>
-					<p><strong>Topic:</strong> Architecting Asynchronous Federated Learning</p>
-					<p><strong>Research Areas:</strong></p>
-					<p>Federated Learning, Asynchronous FL algorithms, On-Client Training,</p>
-					<p>Distributed Framework design</p>
-				</li>
-				<li>
-					<p class="date"><a href="#">May-July<b>2019</b></a></p>
-					<h3>Mitacs Globalink Research Internship</h3>
-					<p><strong>University of Waterloo</strong></p>
-					<p><strong>Topic:</strong> Advanced Optimization Methods for Machine Learning</p>
-					<p><strong>Research Areas:</strong></p>
-					<p>CANDECOMP/PARAFAC Decomposition, Sparse Tensor Completion, Leverage Scores, Randomized Algorithm</p>
-				</li>
-				<li>
-					<p class="date"><a href="#">May-July<b>2018</b></a></p>
-					<h3>Research Internship</h3>
-					<p><strong>IIT Kharagpur (collab. Shell India Pvt. Ltd.)</strong></p>
-					<p><strong>Topic:</strong> Mean Time to Failure and Early Detection of Equipments</p>
-					<p>(Predictive Maintenance)</p>
-					<p><strong>Research Areas:</strong></p>
-					<p>Clustering Algorithms, EM Algorithm, Density Estimation, Gaussian Mixture Model</p>
-				</li>
-			</ul>
-		</div>
-		<div id="featured">
-			<div class="title">
-				<h2>Education</h2>
-				<!-- <span class="byline">Education</span> -->
-			</div>
-			<ul class="style1">
-				<li class="first">
-					<p class="date"><a href="#"><b>2016-<br>2021</b></a></p>
-					<h3>Dual Degree (B. Tech + M. Tech 5 Year) in Computer Science and Engineering</h3>
-					<p><strong>Indian Institute of Technology Kharagpur</strong></p>
-					<p>Cumulative GPA: 9.73/10.0 </p>
-				</li>
-				<li>
-					<p class="date"><a href="#"><b>2015-<br>2016</b></a></p>
-					<h3>High School</h3>
-					<p><strong>St. Joseph's College</strong></p>
-					<p>2016: Higher Secondary Examination: 94.75%</p>
-				</li>
-			</ul>
-		</div>
-		<div id="copyright">
-			<img src="images/kgp.png" width="40" height="53" alt="" />
-			<span>Copyright &copy; Sarthak Chakraborty. All rights reserved.</span>
-			<span>Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.</span>
-		</div>
-	</div>
+        <p>
+        My broad interests lies in the fields of Data-driven Systems, ML for Systems, Edge Computing, Distirbuted Systems and Machine Learning, in short, on the intersection of Machine Learning and Systems Design.
+        </p>
+
+        <p>
+        I graduated with a Dual Degree (B. Tech + M. Tech) in Computer Science and Engineering from the Indian Institute of Technology (IIT)Kharagpur. I have worked on the topic of "Cross-Chain Training of Learning Models via Blockchain Interoperability" as my Master's Thesis Project under <a href="http://cse.iitkgp.ac.in/~sandipc/index.html">Prof. Sandip Chakraborty</a>. I have also completed my Bachelor's Thesis Project under the same professor on the topic of "Viewport Adaptive 360-degree Video Streaming". Furthermore, I have experience in fields of Federated Learning, Numerical Computations, Emotion Detection and Semi-Supervised Learning via several internships and projects.
+        </p>
+        
+        <p>
+        Apart from my technical prowess, I am an avid reader(<a href="https://www.goodreads.com/user/show/91185305-sarthak-chakraborty">goodreads</a>), sports enthusiast (especially football - P.S. a huge <strong>Barcelona</strong> and <strong>Messi</strong> fan), an adventure lover and a connoisseur of art and film-making. I like to read books and some of my favourite reads are <strong>1984, To Kill a Mockingbird, Slaughterhouse-five</strong> and <strong>A Brief History of Time</strong>. In addition to that few of my favourite movies are <strong>The Shawshank Redemption, Parasite, Fight Club</strong> and <strong>The Godfather</strong>.
+        </p>
+
+    <div class="social-links">
+      <span class="social-item"><a href="https://twitter.com/sarthak0407" target="_blank">Twitter</a></span>
+      <span class="social-item"><a href="https://www.linkedin.com/in/sarthak-chakraborty-345929132/" target="_blank">LinkedIn</a></span>
+      <span class="social-item"><a href="http://www.github.com/sarthak-chakraorty" target="_blank">GitHub</a></span>
+      <span class="social-item"><a href="https://scholar.google.com/citations?user=LcZzLRgAAAAJ&hl=en" target="_blank">Google Scholar</a></span>
+    </div>
+  </div>
+  <!-- My Introduction -->
+
+
+  <!-- Latest News -->
+  <div class="row docs-section" id="news">
+    <h4 class="docs-header">Latest News</h4>
+    <table>
+      <tr>
+        <td>13/07/21</td>
+        <td>
+        Excited to start my first job as a Research Associate at Adobe, India.
+        </td>
+      </tr>
+      <tr>
+        <td>15/01/21</td>
+        <td>
+        My maiden <a href="https://arxiv.org/abs/2008.06007">paper on Viewport Adaptie 360 degree Video Streaming</a> accepted at WWW!
+        </td>
+      </tr>
+      <tr>
+        <td>25/11/20</td>
+        <td>
+        New <a href="https://medium.com/aosd-reading-assignment/thread-management-and-thread-scheduling-6ce1ad4fc325">blog post</a> comparing several methods of Thread Management and Thread Scheduling.
+        </td>
+      </tr>
+      <tr>
+        <td>13/10/20</td>
+        <td>
+        New <a href="https://medium.com/aosd-reading-assignment/scheduling-algorithms-for-shared-memory-multi-processor-systems-9c62208ce10c">blog post</a> discussing Shared-Memory Multiprocessor systems and comparing various scheduling algorithms.
+        </td>
+      </tr>
+    </table>
+  </div>
+  <!-- Latest News -->
+
+
+  <!-- Papers -->
+  <div class="row docs-section" id="publications">
+    <h4 class="docs-header">Publications</h4>
+    <!-- <h5 class="top-margin bottom-margin">2020</h5> -->
+    <div class="row publication">
+      <div class="paper-title"><a href="">PARIMA: Viewport Adaptive 360-degree Video Streaming</a></div>
+      <div class="paper-authors">
+        Lovish Chopra*,
+        <span class="my-name">Sarthak Chakraborty*</span>,
+        Abhijit Mondal,
+        Sandip Chakraborty
+      </div>
+      <div class="paper-conference">
+      Proceedings of the Web Conference 2021 (WWW ’21), April 19–23, 2021, Ljubljana, Slovenia. 
+      </div>
+      <div class="paper-links">
+        <a href="hhttps://doi.org/10.1145/3442381.3450070" target="blank" style="display:inline-block;margin-right:10px;" >[LINK]</a><a href="https://github.com/sarthak-chakraborty/PARIMA" target="blank" style="display:inline-block;margin-right:10px;">[CODE]</a><a href="https://www.youtube.com/watch?v=3Rbiz6igcd8" target="blank" style="display:inline-block;margin-right:10px;">[VIDEO]</a>
+      </div>
+    </div>
+  </div>
+  <!-- Papers -->
+
+  <!-- Research Section -->
+  <div class="row docs-section" id="internships">
+    <h4 class="docs-header">Internships</h4>
+    <div class="row">
+      <div class="twelve columns project-example">
+        <div class="row">
+          <h6 class="docs-header">Big Data Experience Lab, Adobe India</h6>
+          <h6 class="mentors"><a href="https://research.adobe.com/person/sunav-choudhary/">Sunav Choudhary</a>,
+            <a href="https://www.linkedin.com/in/manoj-ghuhan-a-a42908121/">Manoj Ghuhan</a></h6>
+          <h6 class="internship-dates">April 2020 - July 2020</h6>
+          <p>
+          <strong>Topic:</strong> Architecting Asynchronous Federated Learning
+          <br>
+          <strong>Research Areas:</strong>
+          Federated Learning, Asynchronous FL algorithms, On-Client Training, Distributed Framework design
+          </p>
+        </div>
+
+        <div class="row">
+          <h6 class="docs-header">University of Waterloo <small>(Mitacs Globalink Research Intern)</small></h6>
+          <h6 class="mentors"><a href="http://www.hansdesterck.net/">Hans de Sterck</a></h6>
+          <h6 class="internship-dates">May 2019 - July 2019</h6>
+          <p>
+          <strong>Topic:</strong> Advanced Optimization Methods for Machine Learning
+          <br>
+          <strong>Research Areas:</strong>
+          CANDECOMP/PARAFAC Decomposition, Sparse Tensor Completion, Leverage Scores, Randomized Algorithm
+          </p>
+        </div>
+
+        <div class="row">
+          <h6 class="docs-header">IIT Kharagpur <small>(collab. Shell India pvt. ltd.)</small></h6>
+          <h6 class="mentors"><a href="https://sites.google.com/site/swanandkhare/">Swanand Khare</a></h6>
+          <h6 class="internship-dates">May 2018 - July 2018</h6>
+          <p>
+          <strong>Topic:</strong> Mean Time to Failure and Early Detection of Equipments (Predictive Maintenance)
+          <br>
+          <strong>Research Areas:</strong>
+          Clustering Algorithms, EM Algorithm, Density Estimation, Gaussian Mixture Model
+          </p>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  <!-- Research Section -->
+
+
+  <!-- Projects Section -->
+  <!-- <div class="row docs-section" id="projects">
+    <h4 class="docs-header">Projects</h4>
+    <div class="row">
+      <div class="twelve columns project-example">
+        <div class="row">
+          <h6 class="docs-header"></h6>
+          <p>In Summer 2017, I conducted a machine learning/data science
+          project for the Google Flights team to try to predict flight arrival
+          times using a mix of historical data and live positional data.
+          I built a few models (including two unique ML models) and trained
+          and evaluated them.
+          Some of these models could outperform official airline
+          estimates in many cases.
+          This exploratory work was converted into production after my
+          internship.
+          In Summer 2016, I did some work on image classification with the
+          Google My Business team (subset of maps).
+          <br>
+          <a href="https://techcrunch.com/2018/01/31/google-flights-will-now-predict-airline-delays-before-the-airlines-do/" target="_blank">coverage</a>
+          </p>
+        </div>
+        <div class="row">
+          <h6 class="docs-header">Tamr Internship (Summer 2015))</h6>
+          <p>I was very fortunate to intern at Tamr in summer 2015.
+          I worked on two main projects - augmenting the
+          main product to handle a new use case for a client, and working on
+          Tamr on Google Cloud Platform
+          <a href="http://www.tamr.com/tamr-on-google-cloud-platform/" target="_blank">Tamr on Google Cloud Platform</a>
+          prior to its launch.
+          I've been told my internship work eventually helped land a client and
+          launch a new product--but what I really took away from the
+          internship was an early love for MLSys!</p>
+        </div>
+        <div class="row">
+          <h6 class="docs-header">Ballroom Dance Projects</h6>
+          <p>
+          I did a lot of ballroom dancing in undergrad, and put together a few
+          apps to help me run the team.
+          One of the common problems is matching up new first-year dancers
+          based on their interests (and how much time they want to practice).
+          The ballroom matchmaker project uses a simple local search with a
+          complex cost function.
+          I also wrote a simple Python script to run competitive dance rounds
+          from my laptop.
+          Check out both projects below!
+          For the final project of an AI class I took in fall 2016, I helped
+          build a ballroom matchmaker program to intelligently form
+          partnerships in a rookie class.
+          We treated the task as a local search problem with a complex cost
+          function.
+          We are hopeful that this tool will help make the lives of future
+          HBDT rookie captains much easier.
+          <br>
+          <a href="https://github.com/DanFu09/ballroom-matchmaker" target="_blank">ballroom matchmaker</a> /
+          <a href="https://github.com/DanFu09/ballroom-runthroughs-script" target="_blank">dance rounds</a>
+          </p>
+        </div>
+        <div class="row">
+          <h6 class="docs-header">ScoreZone
+          </h6>
+          <p>When I was a freshman in high school, I built a sports app for 
+          students to report live game results with a writeup.
+          A surprisingly fun project looking back--my high school's first brush
+          with social media!
+          <br>
+          <a href="https://play.google.com/store/apps/details?id=org.parktudor.scorezone" target="_blank">app</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div> -->
+  <!-- Projects Section --> 
+
+  <!-- Teaching Section -->
+  <div class="row docs-section" id="teaching">
+    <h4 class="docs-header">Teaching</h4>
+    <div class="row">
+      <div class="teaching-experience">
+        <div class="teaching-class-name">
+          CS43002: Database Management Systems (IIT Kharagpur) - Spring 2021
+        </div>
+        <div class="teaching-job">Teaching Assistant</div>
+        <p><a href="http://www.facweb.iitkgp.ac.in/~shamik/spring2021/dbms/dbms2021.html" target="_blank">course website</a></p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="teaching-experience">
+        <div class="teaching-class-name">
+          CS41001: Theory of Computation (IIT Kharagpur) - Fall 2020
+        </div>
+        <div class="teaching-job">Teaching Assistant</div>
+        <p>
+        <a href="http://cse.iitkgp.ac.in/~skolay/TOC2020.html" target="_blank">course website</a></p>
+      </div>
+    </div>
+  </div>
+  <!-- Teaching -->
+
+  <!-- Blogs -->
+  <div class="row docs-section" id="blogs">
+    <h4 class="docs-header">Blogs</h4>
+    <div class="row">
+      <div class="twelve columns project-example">
+        <div class="row">
+          <h6 class="docs-header"><a href="https://medium.com/aosd-reading-assignment/thread-management-and-thread-scheduling-6ce1ad4fc325">Thread Management and Thread Scheduling</a></h6>
+          <h6 class="internship-dates">15 Nov, 2020</h6>
+          <p>Several concepts regarding thread management and their scheduling</p>
+        </div>
+
+        <div class="row">
+          <h6 class="docs-header"><a href="https://medium.com/aosd-reading-assignment/scheduling-algorithms-for-shared-memory-multi-processor-systems-9c62208ce10c">Scheduling Algorithms for Shared-Memory Multi-Processor Systems</a></h6>
+          <h6 class="internship-dates">13 Oct, 2020</h6>
+          <p>Inter and Intra process scheduling algorithms for SMP systems and their analysis</p>
+        </div>
+
+        <div class="row">
+          <h6 class="docs-header"><a href="https://medium.com/analytics-vidhya/understanding-deep-learning-requires-re-thinking-generalization-fe94889bb14c">Understanding Deep Learning requires Re-Thinking Generalization</a></h6>
+          <h6 class="internship-dates">17 Aug, 2020</h6>
+          <p>The following analysis is my interpretation of the ICLR 2017 paper “Understanding Deep Learning requires Re-Thinking Generalization”(arXiv link). This paper was awarded one of the three Best...</p>      
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Blogs -->
+
+  <!-- Contact -->
+  <div class="row docs-section" id="contact">
+    <h4 class="docs-header">Contact</h4>
+      <h6 class="docs-header">Email:</h6>
+      <p>
+      sarchakr &lt;at&gt; adobe &lt;dot&gt; com
+      <br> &lt;first_name&gt;.&lt;last_name&gt; &lt;at&gt; gmail &lt;dot&gt; com
+      <br>
+      Additionally, you can also reach out to me via any of the social platforms like <a href="https://www.facebook.com/sarthak.chakraborty.52" target="_blank">Facebook</a>, <a href="https://www.linkedin.com/in/sarthak-chakraborty-345929132/" target="_blank">LinkedIn</a> or <a href="https://twitter.com/sarthak0407" target="_blank">Twitter</a>
+    </p>
+  </div>
+  <!-- Contact -->
+
+  <footer>
+    <div class="row">
+      <i class="fa fa-copyright"></i> Sarthak Chakraborty - All rights reserved</i>
+      <br><small><i>Design by <a href="https://www.danfu.org/">Dan</a></i></small>
+    </div>
+  </footer>
 </div>
+<!-- Primary Page Layout -->
 
+<!-- Scripts
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="js/site.js"></script>
+<script src="js/functions.js"></script>
+<!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-<script>	
-//Get the button
-var mybutton = document.getElementById("topBtn");
+  ga('create', 'UA-55538454-2', 'auto');
+  ga('send', 'pageview');
 
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
-  }
-}
-
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
 </script>
-
 
 </body>
 </html>
