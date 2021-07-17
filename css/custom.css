@@ -1,10 +1,11 @@
 @font-face {
     font-family: 'Raleway';
-    src: url('Raleway/static/Raleway-Light.ttf') format('truetype');
+    src: url('../Raleway/static/Raleway-Light.ttf') format('truetype');
     font-style: normal;
 }
 
 .container {
+  font-family: 'Raleway';
   max-width: 1000px; }
 .header {
   margin-top: 6rem;
