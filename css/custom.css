@@ -1,11 +1,11 @@
 @font-face {
-    font-family: 'OpenSans';
-    src: url('../OpenSans/OpenSans-Light.ttf') format('truetype');
+    font-family: 'Raleway';
+    src: url('../Raleway/static/Raleway-Light.ttf') format('truetype');
     font-style: normal;
 }
 
 .container-outer {
-  font-family: 'OpenSans';
+  font-family: 'Raleway';
   width: 100%; 
   margin-top: 0; }
 .container-header {
