@@ -1,6 +1,5 @@
 @font-face {
     font-family: 'OpenSans';
-    /* src: url('../Raleway/static/Raleway-Light.ttf') format('truetype'); */
     src: url('../OpenSans/OpenSans-Light.ttf') format('truetype');
     font-style: normal;
 }
