@@ -1,6 +1,6 @@
 /* cyrillic-ext */
 @font-face {
-  font-family: 'Raleway';
+  font-family: 'Raleway', san-serif;
   font-style: normal;
   font-weight: 300;
   src: url(https://fonts.gstatic.com/s/raleway/v22/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVuEorCFPrEHJA.woff2) format('woff2');
