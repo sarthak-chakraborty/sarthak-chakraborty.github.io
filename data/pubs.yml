@@ -1,0 +1,95 @@
+- year: 0
+  pubs:
+    - title: "Outage-Watch: Early Prediction of Outages using Extreme Event Regularizer"
+      authors:
+        - name: Shubham Agarwal
+        - name: Sarthak Chakraborty
+          me: True
+        - name: Shaddy Garg
+        - name: Sumit Bisht
+        - name: Chahat Jain
+        - name: Ashritha Gonuguntla
+        - name: Shiv Saini
+      conf: "In ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE 2023) (Accpt. Rate: 12.7%)"
+      links:
+        - text: PDF
+          link: "#"
+        - text: LINK
+          link: "#"
+
+    - title: "CausIL: Causal Graph for Instance Level Microservice Data"
+      authors:
+        - name: Sarthak Chakraborty
+          me: True
+        - name: Shaddy Garg
+        - name: Shubham Agarwal
+        - name: Ayush Chauhan
+        - name: Shiv Saini
+      conf: "In Proceedings of the Web Conference 2023 (WWW ’23) (Accpt. Rate: 19.2%)"
+      links:
+        - text: PDF
+          link: ../publications/CausIL_WWW23.pdf
+        - text: LINK
+          link: https://dl.acm.org/doi/10.1145/3543507.3583274
+        - text: VIDEO
+          link: https://youtu.be/uGE69IFt7fk
+        - text: CODE
+          link: https://github.com/sarthak-chakraborty/CausIL
+
+    - title: "Root Cause Analysis of Failures in Microservices through Causal Discovery"
+      authors:
+        - name: Muhammad Azam Ikram
+        - name: Sarthak Chakraborty
+          me: True
+        - name: Subrata Mitra
+        - name: Shiv Saini
+        - name: Saurabh Bagchi
+        - name: Murat Kocaoglu
+      conf: "In Advances in Neural Information Processing Systems (NeurIPS '22), 2022 (Accpt. Rate: 25.6%)"
+      links:
+        - text: PDF
+          link: ../publications/RCD_NeurIPS22.pdf
+        - text: LINK
+          link: https://proceedings.neurips.cc/paper_files/paper/2022/hash/c9fcd02e6445c7dfbad6986abee53d0d-Abstract-Conference.html
+        - text: VIDEO
+          link: https://github.com/azamikram/rcd
+        - text: CODE
+          link: https://slideslive.com/38989929/root-cause-analysis-of-failures-in-microservices-through-causal-discovery?ref=search-presentations-root+ca
+
+    - title: "Proof of Federated Training: Accountable Cross-Network Model Training and Inference"
+      authors:
+        - name: Sarthak Chakraborty
+          me: True
+        - name: Sandip Chakraborty
+      conf: "In 2022 IEEE International Conference on Blockchain and Cryptocurrency (ICBC '22), 2022 (Accpt. Rate: 18.6%)"
+      links:
+        - text: PDF
+          link: ../publications/PoFT_ICBC22.pdf
+        - text: LINK
+          link: https://ieeexplore.ieee.org/document/9805548
+        - text: VIDEO
+          link: https://www.youtube.com/watch?v=bulyjzkdtCk&ab_channel=UbiNet
+        - text: CODE
+          link: https://github.com/sarthak-chakraborty/FL-CrossChain
+
+    - title: "PARIMA: Viewport Adaptive 360-degree Video Streaming"
+      authors:
+        - name: Lovish Chopra*
+        - name: Sarthak Chakraborty*
+          me: True
+        - name: Abhijit Mondal
+        - name: Sandip Chakraborty
+      conf: "In Proceedings of the Web Conference 2021 (WWW ’21), pages 2379-2391, 2021 (Accpt. Rate: 20.6%)"
+      links:
+        - text: PDF
+          link: ../publications/PARIMA_WWW21.pdf
+        - text: LINK
+          link: https://doi.org/10.1145/3442381.3450070
+        - text: VIDEO
+          link: https://www.youtube.com/watch?v=3Rbiz6igcd8
+        - text: CODE
+          link: https://github.com/sarthak-chakraborty/PARIMA
+        
+
+    
+

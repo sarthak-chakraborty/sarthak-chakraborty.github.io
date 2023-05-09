@@ -1,0 +1,28 @@
+- year: 0
+  patents:
+    - title: "LiveStreaming AI: Merchandisable Moment Identification and Offer Generation"
+      authors:
+        - name: Sunav Choudhary
+        - name: Atanu R. Sinha
+        - name: Sarthak Chakraborty
+          me: True
+        - name: Sai Shashank Kalakonda
+        - name: Liza Dahiya
+        - name: Purnima Grover
+        - name: Kartavya Jain
+      status: "Filed (US Patent Application No.: 18/176,114)"
+
+    - title: "Generating Concise and Common User Representations for Edge Systems from Event Sequence Data stored on Hub Systems"
+      authors:
+        - name: Sarthak Chakraborty
+          me: True
+        - name: Sunav Choudhary
+        - name: Atanu R. Sinha
+        - name: Sapthotharan Nair
+        - name: Manoj Ghuhan A
+        - name: Yuvraj Gagneja
+        - name: Atharv Tyagi
+        - name: Atharva Anand Joshi
+        - name: Shivi Gupta
+      status: "Filed (US Patent Application No.: 17/849,320)"
+      
