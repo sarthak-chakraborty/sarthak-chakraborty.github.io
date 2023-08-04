@@ -50,23 +50,52 @@ function loadNews() {
 }
 
 
+// function loadPubs() {
+//   fetch('data/pubs.yml')
+//     .then(response => response.text())
+//     .then(response_text => {
+//       var pubHTML = '';
+//       jsyaml.load(response_text).forEach(pubYear => {
+//         pubsInYear = '';
+//         pubYear.pubs.forEach(pub => {
+//           authorList = '';
+//           pub['authors'].forEach((author, idx) => {
+//             authorList += `${('me' in author) && author['me'] ?
+//             `<span class="my-name">${author['name']}</span>` :
+//             `${author['name']}`}${idx < pub['authors'].length - 1 ? ', ' : ''}`;
+//           });
+//           pubsInYear += `<div class="row publication">
+//             <div class="paper-title">
+//               <a href="${pub['link']}">${pub['title']}</a>
+//             </div>
+//             <div class="paper-authors">${authorList}</div>
+//             ${'conf' in pub ?
+//             `<div class="paper-conference">${pub['conf']}</div>` : ''}
+//             ${'links' in pub ?
+//             `<div class="paper-links">${loadLinks(pub['links'])}</div>` : ''}
+//           </div>`;
+//         });
+//         pubHTML += `${pubsInYear}`;
+//       });
+//       $('#pub-list').html(pubHTML);
+//     })
+// }
+
 function loadPubs() {
   fetch('data/pubs.yml')
     .then(response => response.text())
     .then(response_text => {
       var pubHTML = '';
-      jsyaml.load(response_text).forEach(pubYear => {
-        pubsInYear = '';
-        pubYear.pubs.forEach(pub => {
+        jsyaml.load(response_text).forEach(pub => {
           authorList = '';
           pub['authors'].forEach((author, idx) => {
             authorList += `${('me' in author) && author['me'] ?
             `<span class="my-name">${author['name']}</span>` :
             `${author['name']}`}${idx < pub['authors'].length - 1 ? ', ' : ''}`;
           });
-          pubsInYear += `<div class="row publication">
+          pubHTML += `<div class="row publication">
             <div class="paper-title">
-              <a href="${pub['link']}">${pub['title']}</a>
+              <a href=#>${pub['title']}</a>
             </div>
             <div class="paper-authors">${authorList}</div>
             ${'conf' in pub ?
@@ -75,8 +104,6 @@ function loadPubs() {
             `<div class="paper-links">${loadLinks(pub['links'])}</div>` : ''}
           </div>`;
         });
-        pubHTML += `${pubsInYear}`;
-      });
       $('#pub-list').html(pubHTML);
     })
 }
@@ -86,16 +113,14 @@ function loadPatents() {
     .then(response => response.text())
     .then(response_text => {
       var patentHTML = '';
-      jsyaml.load(response_text).forEach(patentYear => {
-        patentInYear = '';
-        patentYear.patents.forEach(patent => {
+      jsyaml.load(response_text).forEach(patent => {
           authorList = '';
           patent['authors'].forEach((author, idx) => {
             authorList += `${('me' in author) && author['me'] ?
             `<span class="my-name">${author['name']}</span>` :
             `${author['name']}`}${idx < patent['authors'].length - 1 ? ', ' : ''}`;
           });
-          patentInYear += `<div class="row publication">
+          patentHTML += `<div class="row publication">
             <div class="paper-title">
               <a href="${patent['link']}">${patent['title']}</a>
             </div>
@@ -104,8 +129,6 @@ function loadPatents() {
             `<div class="paper-conference">${patent['status']}</div>` : ''}
           </div>`;
         });
-        patentHTML += `${patentInYear}`;
-      });
       $('#patent-list').html(patentHTML);
     })
 }
