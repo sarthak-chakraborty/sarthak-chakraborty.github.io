@@ -6,27 +6,17 @@
   <meta name="description" content="">
   <meta name="keywords" content="" />
   <title>Sarthak Chakraborty</title>
-
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <link href="http://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-
   <link rel="stylesheet" href="dist/css/normalize.css">
   <link rel="stylesheet" href="dist/css/skeleton.css">
   <link rel="stylesheet" href="css/custom.css">
-
   <link rel="icon" type="image/png" href="images/favicon.ico">
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-  <script src="node_modules/js-yaml/dist/js-yaml.js"></script>
-  <script src="sites.js"></script>
-
 </head>
 
 
-<body onload=init_index()>
-<!-- <body> -->
+<body>
 
 <div class="container-outer">
   <!-- Header -->
@@ -91,7 +81,83 @@
     <!-- Latest News -->
     <div class="row docs-section" id="news">
       <h4 class="docs-header">Latest News</h4>
-      <div id="news-table"></div>
+      <table>
+        <tr>
+          <td>05/05/23</td>
+          <td>
+          Will be starting a new phase in my career as a CS PhD student at the University of Illinois at Urbana-Champaign!
+          </td>
+        </tr>
+        <tr>
+          <td>05/05/23</td>
+          <td>
+          New paper accepted at ASE 2023 on Root Cause Detection using alerts and outage reports!
+          </td>
+        </tr>
+        <tr>
+          <td>05/05/23</td>
+          <td>
+          New paper accepted at ESEC/FSE 2023 on Outage Forecasting!
+          </td>
+        </tr>
+        <tr>
+          <td>30/01/23</td>
+          <td>
+          Promoted to the position of Research Associate 2 at Adobe Research!
+          </td>
+        </tr>
+        <tr>
+          <td>25/01/23</td>
+          <td>
+          New paper acceptance at <a href="https://dl.acm.org/doi/10.1145/3543507.3583274">WWW 2023</a> on building a causal graph for system diagnosis using instance-level data!
+          </td>
+        </tr>
+        <tr>
+          <td>14/09/22</td>
+          <td>
+          New paper on <a href="https://openreview.net/pdf?id=weoLjoYFvXY">Root Cause Analysis using Causal Discovery</a> accepted at NeurIPS 2022!
+          </td>
+        </tr>
+        <tr>
+          <td>20/02/22</td>
+          <td>
+          New paper on <a href="https://ieeexplore.ieee.org/document/9805548">Federated Training across different silos via Cross-Chain Interoperability</a> accepted at ICBC 2022!
+          </td>
+        </tr>
+        <tr>
+          <td>13/07/21</td>
+          <td>
+          Excited to start my first job as a Research Associate at Adobe, India.
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <a href="javascript:toggleVis('morenews')">Show More</a>
+          </td>
+        </tr>
+      </table>
+
+      <table id="morenews" style="display: none">
+        <tr>
+          <td>15/01/21</td>
+          <td>
+          My maiden paper on <a href="https://doi.org/10.1145/3442381.3450070">Viewport Adaptive 360 degree Video Streaming</a> accepted at WWW 2021!
+          </td>
+        </tr>
+        <tr>
+          <td>25/11/20</td>
+          <td>
+          New <a href="https://medium.com/aosd-reading-assignment/thread-management-and-thread-scheduling-6ce1ad4fc325" target="blank">blog post</a> comparing several methods of Thread Management and Thread Scheduling.
+          </td>
+        </tr>
+        <tr>
+          <td>13/10/20</td>
+          <td>
+          New <a href="https://medium.com/aosd-reading-assignment/scheduling-algorithms-for-shared-memory-multi-processor-systems-9c62208ce10c" target="blank">blog post</a> discussing Shared-Memory Multiprocessor systems and comparing various scheduling algorithms.
+          </td>
+        </tr>
+      </table>
     </div>
     <!-- Latest News -->
 
@@ -99,16 +165,151 @@
     <!-- Papers -->
     <div class="row docs-section" id="publications">
       <h4 class="docs-header">Publications</h4>
-      <div id="pub-list"></div>
-      
+      <!-- <h5 class="top-margin bottom-margin">2020</h5> -->
+
+      <div class="row publication">
+        <div class="paper-title"><a href="">ESRO: Experience Assisted Service Reliability against Outages/a></div>
+        <div class="paper-authors">
+          <span class="my-name">Sarthak Chakraborty</span>,
+          Shubham Agarwal,
+          Shaddy Garg,
+          Abhimanyu Sethia,
+          Udit Narayan Pandey,
+          Videh Aggarwal,
+          Shiv Kumar Saini
+        </div>
+        <div class="paper-conference">
+        In 38th IEEE/ACM International Conference on Automated Software Engineering (ASE 2023) (Accpt. Rate: 21.3%)
+        </div>
+        <div class="paper-links">
+          <a href="#" style="display:inline-block;margin-right:10px;" >[PDF]</a><a href="#", style="display:inline-block;margin-right:10px;">[LINK]</a>
+        </div>
+      </div>
+
+      <div class="row publication">
+        <div class="paper-title"><a href="">Outage-Watch: Early Prediction of Outages using Extreme Event Regularizer</a></div>
+        <div class="paper-authors">
+          Shubham Agarwal,
+          <span class="my-name">Sarthak Chakraborty</span>,
+          Shaddy Garg,
+          Sumit Bisht,
+          Chahat Jain,
+          Ashritha Gonuguntla,
+          Shiv Kumar Saini
+        </div>
+        <div class="paper-conference">
+        In ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE 2023) (Accpt. Rate: 25.6%)
+        </div>
+        <div class="paper-links">
+          <a href="#" style="display:inline-block;margin-right:10px;" >[PDF]</a><a href="#", style="display:inline-block;margin-right:10px;">[LINK]</a>
+        </div>
+      </div>
+
+      <div class="row publication">
+        <div class="paper-title"><a href="">CausIL: Causal Graph for Instance Level Microservice Data</a></div>
+        <div class="paper-authors">
+          <span class="my-name">Sarthak Chakraborty</span>,
+          Shaddy Garg,
+          Shubham Agarwal,
+          Shiv Kumar Saini,
+          Ayush Chauhan
+        </div>
+        <div class="paper-conference">
+        In Proceedings of the Web Conference 2023 (WWW ’23) (Accpt. Rate: 19.2%)
+        </div>
+        <div class="paper-links">
+          <a href="publications/CausIL_WWW23.pdf" style="display:inline-block;margin-right:10px;" >[PDF]</a><a href="https://dl.acm.org/doi/10.1145/3543507.3583274", style="display:inline-block;margin-right:10px;">[LINK]</a><a href="https://youtu.be/uGE69IFt7fk" style="display:inline-block;margin-right:10px;">[VIDEO]</a><a href="https://github.com/sarthak-chakraborty/CausIL" style="display:inline-block;margin-right:10px;">[CODE]</a>
+        </div>
+      </div>
+
+      <div class="row publication">
+        <div class="paper-title"><a href="">Root Cause Analysis of Failures in Microservices through Causal Discovery</a></div>
+        <div class="paper-authors">
+          Muhammad Azam Ikram,
+          <span class="my-name">Sarthak Chakraborty</span>,
+          Subrata Mitra,
+          Shiv Kumar Saini,
+          Saurabh Bagchi,
+          Murat Kocaoglu
+        </div>
+        <div class="paper-conference">
+        In Advances in Neural Information Processing Systems (NeurIPS '22), 2022 (Accpt. Rate: 25.6%)
+        </div>
+        <div class="paper-links">
+          <a href="publications/RCD_NeurIPS22.pdf" style="display:inline-block;margin-right:10px;" >[PDF]</a><a href="https://proceedings.neurips.cc/paper_files/paper/2022/hash/c9fcd02e6445c7dfbad6986abee53d0d-Abstract-Conference.html" style="display:inline-block;margin-right:10px;" >[LINK]</a><a href="https://github.com/azamikram/rcd" style="display:inline-block;margin-right:10px;">[CODE]</a><a href="https://slideslive.com/38989929/root-cause-analysis-of-failures-in-microservices-through-causal-discovery?ref=search-presentations-root+ca" style="display:inline-block;margin-right:10px;">[VIDEO]</a>
+        </div>
+      </div>
+
+      <div class="row publication">
+        <div class="paper-title"><a href="">Proof of Federated Training: Accountable Cross-Network Model Training and Inference</a></div>
+        <div class="paper-authors">
+          <span class="my-name">Sarthak Chakraborty</span>,
+          Sandip Chakraborty
+        </div>
+        <div class="paper-conference">
+        In 2022 IEEE International Conference on Blockchain and Cryptocurrency (ICBC '22), 2022 (Accpt. Rate: 18.6%)
+        </div>
+        <div class="paper-links">
+          <a href="publications/PoFT_ICBC22.pdf" style="display:inline-block;margin-right:10px;" >[PDF]</a><a href="https://ieeexplore.ieee.org/document/9805548" style="display:inline-block;margin-right:10px;" >[LINK]</a><a href="https://github.com/sarthak-chakraborty/FL-CrossChain" style="display:inline-block;margin-right:10px;">[CODE]</a><a href="https://www.youtube.com/watch?v=bulyjzkdtCk&ab_channel=UbiNet" style="display:inline-block;margin-right:10px;">[VIDEO]</a>
+        </div>
+      </div>
+
+      <div class="row publication">
+        <div class="paper-title"><a href="">PARIMA: Viewport Adaptive 360-degree Video Streaming</a></div>
+        <div class="paper-authors">
+          Lovish Chopra*,
+          <span class="my-name">Sarthak Chakraborty*</span>,
+          Abhijit Mondal,
+          Sandip Chakraborty
+        </div>
+        <div class="paper-conference">
+        In Proceedings of the Web Conference 2021 (WWW ’21), pages 2379-2391, 2021 (Accpt. Rate: 20.6%)
+        </div>
+        <div class="paper-links">
+          <a href="publications/PARIMA_WWW21.pdf" style="display:inline-block;margin-right:10px;" >[PDF]</a><a href="https://doi.org/10.1145/3442381.3450070" style="display:inline-block;margin-right:10px;" >[LINK]</a><a href="https://github.com/sarthak-chakraborty/PARIMA" style="display:inline-block;margin-right:10px;">[CODE]</a><a href="https://www.youtube.com/watch?v=3Rbiz6igcd8" style="display:inline-block;margin-right:10px;">[VIDEO]</a>
+        </div>
+      </div>
     </div>
     <!-- Papers -->
-
 
     <!-- Patents -->
     <div class="row docs-section" id="patents">
       <h4 class="docs-header">Patents</h4>
-      <div id="patent-list"></div>
+      <!-- <h5 class="top-margin bottom-margin">2020</h5> -->
+      <div class="row publication">
+        <div class="paper-title"><a href="">LiveStreaming AI: Merchandisable Moment Identification and Offer Generation</a></div>
+        <div class="paper-authors">
+          Sunav Choudhary,
+          Atanu R. Sinha,
+          <span class="my-name">Sarthak Chakraborty</span>,
+          Sai Shashank Kalakonda,
+          Liza Dahiya,
+          Purnima Grover,
+          Kartavya Jain
+        </div>
+        <div class="paper-conference">
+        Filed (US Patent Application No.: 18/176,114)
+        </div>
+      </div>
+
+      <div class="row publication">
+        <div class="paper-title"><a href="">Generating Concise and Common User Representations for Edge Systems from Event Sequence Data stored on Hub Systems</a></div>
+        <div class="paper-authors">
+          <span class="my-name">Sarthak Chakraborty</span>,
+          Sunav Choudhary,
+          Atanu R. Sinha,
+          Sapthotharan Nair,
+          Manoj Ghuhan A,
+          Yuvraj Gagneja,
+          Atharva Anand Joshi,
+          Atharv Tyagi,
+          Shivi Gupta
+        </div>
+        <div class="paper-conference">
+        Filed (US Patent Application No.: 17/849,320)
+        </div>
+      </div>
+
     </div>
     <!-- Patents -->
 
@@ -159,7 +360,81 @@
       </div>
     </div>
     <!-- Research Section -->
- 
+
+
+    <!-- Projects Section -->
+    <!-- <div class="row docs-section" id="projects">
+      <h4 class="docs-header">Projects</h4>
+      <div class="row">
+        <div class="twelve columns project-example">
+          <div class="row">
+            <h6 class="docs-header"></h6>
+            <p>In Summer 2017, I conducted a machine learning/data science
+            project for the Google Flights team to try to predict flight arrival
+            times using a mix of historical data and live positional data.
+            I built a few models (including two unique ML models) and trained
+            and evaluated them.
+            Some of these models could outperform official airline
+            estimates in many cases.
+            This exploratory work was converted into production after my
+            internship.
+            In Summer 2016, I did some work on image classification with the
+            Google My Business team (subset of maps).
+            <br>
+            <a href="https://techcrunch.com/2018/01/31/google-flights-will-now-predict-airline-delays-before-the-airlines-do/" target="_blank">coverage</a>
+            </p>
+          </div>
+          <div class="row">
+            <h6 class="docs-header">Tamr Internship (Summer 2015))</h6>
+            <p>I was very fortunate to intern at Tamr in summer 2015.
+            I worked on two main projects - augmenting the
+            main product to handle a new use case for a client, and working on
+            Tamr on Google Cloud Platform
+            <a href="http://www.tamr.com/tamr-on-google-cloud-platform/" target="_blank">Tamr on Google Cloud Platform</a>
+            prior to its launch.
+            I've been told my internship work eventually helped land a client and
+            launch a new product--but what I really took away from the
+            internship was an early love for MLSys!</p>
+          </div>
+          <div class="row">
+            <h6 class="docs-header">Ballroom Dance Projects</h6>
+            <p>
+            I did a lot of ballroom dancing in undergrad, and put together a few
+            apps to help me run the team.
+            One of the common problems is matching up new first-year dancers
+            based on their interests (and how much time they want to practice).
+            The ballroom matchmaker project uses a simple local search with a
+            complex cost function.
+            I also wrote a simple Python script to run competitive dance rounds
+            from my laptop.
+            Check out both projects below!
+            For the final project of an AI class I took in fall 2016, I helped
+            build a ballroom matchmaker program to intelligently form
+            partnerships in a rookie class.
+            We treated the task as a local search problem with a complex cost
+            function.
+            We are hopeful that this tool will help make the lives of future
+            HBDT rookie captains much easier.
+            <br>
+            <a href="https://github.com/DanFu09/ballroom-matchmaker" target="_blank">ballroom matchmaker</a> /
+            <a href="https://github.com/DanFu09/ballroom-runthroughs-script" target="_blank">dance rounds</a>
+            </p>
+          </div>
+          <div class="row">
+            <h6 class="docs-header">ScoreZone
+            </h6>
+            <p>When I was a freshman in high school, I built a sports app for 
+            students to report live game results with a writeup.
+            A surprisingly fun project looking back--my high school's first brush
+            with social media!
+            <br>
+            <a href="https://play.google.com/store/apps/details?id=org.parktudor.scorezone" target="_blank">app</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <!-- Projects Section --> 
 
     <!-- Teaching Section -->
     <div class="row docs-section" id="teaching">
@@ -214,6 +489,8 @@
     </div>
     <!-- Blogs -->
 
+
+
     <!-- Contact -->
     <div class="row docs-section" id="contact">
       <h4 class="docs-header">Contact</h4>
@@ -237,11 +514,15 @@
 </div>
 <!-- Primary Page Layout -->
 
+
+
 <!-- Scripts
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="js/site.js"></script>
+<script src="js/functions.js"></script>
 <!-- Google Analytics -->
-<!-- <script>
+<script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -250,7 +531,7 @@
   ga('create', 'UA-55538454-2', 'auto');
   ga('send', 'pageview');
 
-</script> -->
+</script>
 
 </body>
 </html>
