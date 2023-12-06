@@ -11,11 +11,11 @@
   conf: "In 38th IEEE/ACM International Conference on Automated Software Engineering (ASE 2023) (Accpt. Rate: 21.3%)"
   links:
     - text: PDF
-      link: ../publications/Outage-Watch_ESEC/FSE23.pdf
+      link: ../publications/ESRO_ASE23.pdf
     - text: LINK
-      link: https://arxiv.org/abs/2309.17340
+      link: https://conf.researchr.org/details/ase-2023/ase-2023-papers/93/ESRO-Experience-Assisted-Service-Reliability-against-Outages
     - text: CODE
-      link: https://github.com/skejriwal44/Outage-Watch
+      link: https://github.com/sarthak-chakraborty/ESRO
 
 - title: "Outage-Watch: Early Prediction of Outages using Extreme Event Regularizer"
   authors:
@@ -30,11 +30,11 @@
   conf: "In ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE 2023) (Accpt. Rate: 26.5%)"
   links:
     - text: PDF
-      link: ../publications/ESRO_ASE23.pdf
+      link: ../publications/Outage-Watch_ESEC/FSE23.pdf
     - text: LINK
-      link: https://conf.researchr.org/details/ase-2023/ase-2023-papers/93/ESRO-Experience-Assisted-Service-Reliability-against-Outages
+      link: https://dl.acm.org/doi/10.1145/3611643.3616316
     - text: CODE
-      link: https://github.com/sarthak-chakraborty/ESRO
+      link: https://github.com/skejriwal44/Outage-Watch
 
 - title: "CausIL: Causal Graph for Instance Level Microservice Data"
   authors:
