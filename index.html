@@ -1,22 +1,32 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
-<html lang="en" xmlns="https://www.w3.org/1999/xhtml">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <meta charset="utf-8">
   <meta name="description" content="">
   <meta name="keywords" content="" />
   <title>Sarthak Chakraborty</title>
+
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <link href="http://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
   <link rel="stylesheet" href="dist/css/normalize.css">
   <link rel="stylesheet" href="dist/css/skeleton.css">
   <link rel="stylesheet" href="css/custom.css">
+
   <link rel="icon" type="image/png" href="images/favicon.ico">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="node_modules/js-yaml/dist/js-yaml.js"></script>
+  <script src="sites.js"></script>
+
 </head>
 
 
-<body>
+<body onload=init_index()>
+<!-- <body> -->
 
 <div class="container-outer">
   <!-- Header -->
@@ -24,7 +34,7 @@
     <section class="header">
       <img class="circle" alt="Picture of Sarthak" src="images/pic05.jpg" width="200" height="200">
       <h1 class="name">Sarthak Chakraborty</h1>
-      <h2 class="description">PhD, Computer Science<br><small>University of Illinois Urbana-Champaign</small></h2>
+      <h2 class="description">Research Associate, Adobe India<br><small>Data-driven Systems, Insights and Experiences</small></h2>
     </section>
     
     <!-- Navbar -->
@@ -53,15 +63,15 @@
     <div class="row docs-section" id="about">
       <h4 class="docs-header">About Me</h4>
           <p>
-            I am currently in my first year of my PhD in Computer Science at Unversity of Illinois Urbana-Champaign. My broad research interests lies in the area of applying machine learning for an optimized system design. I am interested in building reliable and intelligent systems that are optimized in performance and can heal itself during any faults. Previously, I have worked in the fields of Data-driven Systems, Edge Computing, Distributed Systems and Federated Learning.
+          I am <strong>Sarthak Chakraborty</strong>, currently working as a Research Associate 2 at <a href="https://research.adobe.com/careers/bangalore/">Big Data Intelligence Lab, Adobe Research, India</a>. I am a part of the 'Data-driven Systems, Insights and Experiences' sub-group where I primarily work in the Systems area. My work at Adobe focuses on reliability of cloud serices by applying machine learning and causal techniques, while I have also explored areas of using data for digital marketing experiences.
           </p>
 
           <p>
-          Previous to this, I have worked as a Research Associate 2 at <a href="https://research.adobe.com/careers/bangalore/">Big Data Intelligence Lab, Adobe Research, India</a>. I was a part of the 'Systems and Insights Group' where I primarily worked in the Systems area. My work at Adobe focused on varied projects. I have worked towards maintaining reliability of cloud serices by applying machine learning and causal techniques, as well as scheduling batched queries across different configuration of clusters, while I have also explored areas of using data for digital marketing experiences. Some of my projects have been successfully transferred to the engineering team and is being used in the products.
+          My broad research interests lies in the area of applying machine learning for an optimized system design. I am interested in building reliable and intelligent systems that are optimized in performance and can heal itself during any faults. Previously, I have worked in the fields of Data-driven Systems, Edge Computing, Distributed Systems and Federated Learning.
           </p>
 
           <p>
-          I graduated with a Dual Degree (Integrated B. Tech + M. Tech) in Computer Science and Engineering from the Indian Institute of Technology (IIT)Kharagpur. I was advised <a href="https://cse.iitkgp.ac.in/~sandipc/index.html">Prof. Sandip Chakraborty</a> on my <a href="thesis/CrossChainTraining_MTP.pdf">Master's Thesis</a> on the topic of training machine learning models in a blockchain-based cross-silo federated network via blockchain interoperability and my <a href="thesis/PARIMA_BTP.pdf">bachelor's thesis</a> project on the topic of viewport adaptive 360-degree video streaming.
+          I graduated with a Dual Degree (Integrated B. Tech + M. Tech) in Computer Science and Engineering from the Indian Institute of Technology (IIT)Kharagpur. I was advised <a href="http://cse.iitkgp.ac.in/~sandipc/index.html">Prof. Sandip Chakraborty</a> on my <a href="thesis/CrossChainTraining_MTP.pdf">Master's Thesis</a> on the topic of training machine learning models in a blockchain-based cross-silo federated network via blockchain interoperability and my <a href="thesis/PARIMA_BTP.pdf">bachelor's thesis</a> project on the topic of viewport adaptive 360-degree video streaming.
           </p>
           
           <p>
@@ -71,7 +81,7 @@
       <div class="social-links">
         <span class="social-item"><a href="https://twitter.com/sarthak0407" target="_blank">Twitter</a></span>
         <span class="social-item"><a href="https://www.linkedin.com/in/sarthak-chakraborty-345929132/" target="_blank">LinkedIn</a></span>
-        <span class="social-item"><a href="https://www.github.com/sarthak-chakraborty" target="_blank">GitHub</a></span>
+        <span class="social-item"><a href="http://www.github.com/sarthak-chakraborty" target="_blank">GitHub</a></span>
         <span class="social-item"><a href="https://scholar.google.com/citations?user=LcZzLRgAAAAJ&hl=en" target="_blank">Google Scholar</a></span>
       </div>
     </div>
@@ -102,304 +112,6 @@
     </div>
     <!-- Patents -->
 
-    
-    <!-- Latest News -->
-    <!-- <div class="row docs-section" id="news">
-      <h4 class="docs-header">Latest News</h4>
-      <table>
-        <tr>
-          <td>07/12/23</td>
-          <td>
-          Will be joining Microsoft Research, Redmond as a Research Intern for Summer 2024!
-          </td>
-        </tr>
-        <tr>
-          <td>07/12/23</td>
-          <td>
-          New Paper accepted at NSDI 2024 on Approximate Caching for Diffusion Models!
-          </td>
-        </tr>
-        <tr>
-          <td>06/12/23</td>
-          <td>
-          Presented our Paper "Outage-Watch: Early Prediction of Outages using Extreme Event Regularizer" at ESEC/FSE 2023!
-          </td>
-        </tr>
-        <tr>
-          <td>20/10/23</td>
-          <td>
-          Received ACM SIGSOFT CAPS Student Travel Grant to attend ESEC/FSE 2023!
-          </td>
-        </tr>
-        <tr>
-          <td>16/08/23</td>
-          <td>
-          Receipent of the Illinois Distinguished Fellowship!
-          </td>
-        </tr>
-        <tr>
-          <td>16/08/23</td>
-          <td>
-          Started a new phase in my career as a CS PhD student at the University of Illinois at Urbana-Champaign!
-          </td>
-        </tr>
-        <tr>
-          <td>07/07/23</td>
-          <td>
-          New paper accepted at ASE 2023 on Root Cause Detection using alerts and outage reports!
-          </td>
-        </tr>
-        
-
-        <tr>
-          <td>
-            <a href="javascript:toggleVis('morenews')">Show More</a>
-          </td>
-        </tr>
-      </table>
-
-      <table id="morenews" style="display: none">
-        <tr>
-          <td>05/05/23</td>
-          <td>
-          New paper accepted at ESEC/FSE 2023 on Outage Forecasting!
-          </td>
-        </tr>
-        <tr>
-          <td>30/01/23</td>
-          <td>
-          Promoted to the position of Research Associate 2 at Adobe Research!
-          </td>
-        </tr>
-        <tr>
-          <td>25/01/23</td>
-          <td>
-          New paper acceptance at <a href="https://dl.acm.org/doi/10.1145/3543507.3583274">WWW 2023</a> on building a causal graph for system diagnosis using instance-level data!
-          </td>
-        </tr>
-        <tr>
-          <td>14/09/22</td>
-          <td>
-          New paper on <a href="https://openreview.net/pdf?id=weoLjoYFvXY">Root Cause Analysis using Causal Discovery</a> accepted at NeurIPS 2022!
-          </td>
-        </tr>
-        <tr>
-          <td>20/02/22</td>
-          <td>
-          New paper on <a href="https://ieeexplore.ieee.org/document/9805548">Federated Training across different silos via Cross-Chain Interoperability</a> accepted at ICBC 2022!
-          </td>
-        </tr>
-        <tr>
-          <td>13/07/21</td>
-          <td>
-          Excited to start my first job as a Research Associate at Adobe, India.
-          </td>
-        </tr>
-        <tr>
-          <td>15/01/21</td>
-          <td>
-          My maiden paper on <a href="https://doi.org/10.1145/3442381.3450070">Viewport Adaptive 360 degree Video Streaming</a> accepted at WWW 2021!
-          </td>
-        </tr>
-        <tr>
-          <td>25/11/20</td>
-          <td>
-          New <a href="https://medium.com/aosd-reading-assignment/thread-management-and-thread-scheduling-6ce1ad4fc325" target="blank">blog post</a> comparing several methods of Thread Management and Thread Scheduling.
-          </td>
-        </tr>
-        <tr>
-          <td>13/10/20</td>
-          <td>
-          New <a href="https://medium.com/aosd-reading-assignment/scheduling-algorithms-for-shared-memory-multi-processor-systems-9c62208ce10c" target="blank">blog post</a> discussing Shared-Memory Multiprocessor systems and comparing various scheduling algorithms.
-          </td>
-        </tr>
-      </table>
-    </div> -->
-    <!-- Latest News -->
-
-
-    <!-- Papers -->
-    <!-- <div class="row docs-section" id="publications">
-      <h4 class="docs-header">Publications</h4>
-
-      <div class="row publication">
-        <div class="paper-title"><a href="">Approximate Caching for Efficiently Serving Diffusion Models</a></div>
-        <div class="paper-authors">
-          Shubham Agarwal,
-          Subrata Mitra,
-          <span class="my-name">Sarthak Chakraborty</span>,
-          Srikrishna Karanam,
-          Koyel Mukherjee,
-          Shiv Kumar Saini
-        </div>
-        <div class="paper-conference">
-        In 21st USENIX Symposium on Networked Systems Design and Implementation (NSDI '24) (Accpt. Rate: 21.3%)
-        </div>
-        <div class="paper-links">
-          <a href="publications/Nirvana_NSDI24.pdf" style="display:inline-block;margin-right:10px;" >[PDF]</a><a href="https://arxiv.org/abs/2312.044296", style="display:inline-block;margin-right:10px;">[LINK]</a><a href="#" style="display:inline-block;margin-right:10px;">[CODE]</a>
-        </div>
-      </div>
-
-      <div class="row publication">
-        <div class="paper-title"><a href="">ESRO: Experience Assisted Service Reliability against Outages</a></div>
-        <div class="paper-authors">
-          <span class="my-name">Sarthak Chakraborty</span>,
-          Shubham Agarwal,
-          Shaddy Garg,
-          Abhimanyu Sethia,
-          Udit Narayan Pandey,
-          Videh Aggarwal,
-          Shiv Kumar Saini
-        </div>
-        <div class="paper-conference">
-        In 2023 38th IEEE/ACM International Conference on Automated Software Engineering (ASE 2023) (Accpt. Rate: 21.3%)
-        </div>
-        <div class="paper-links">
-          <a href="publications/ESRO_ASE23.pdf" style="display:inline-block;margin-right:10px;" >[PDF]</a><a href="https://ieeexplore.ieee.org/abstract/document/10298416", style="display:inline-block;margin-right:10px;">[LINK]</a><a href="https://github.com/sarthak-chakraborty/ESRO" style="display:inline-block;margin-right:10px;">[CODE]</a>
-        </div>
-      </div>
-
-      <div class="row publication">
-        <div class="paper-title"><a href="">Outage-Watch: Early Prediction of Outages using Extreme Event Regularizer</a></div>
-        <div class="paper-authors">
-          Shubham Agarwal,
-          <span class="my-name">Sarthak Chakraborty</span>,
-          Shaddy Garg,
-          Sumit Bisht,
-          Chahat Jain,
-          Ashritha Gonuguntla,
-          Shiv Kumar Saini
-        </div>
-        <div class="paper-conference">
-        In ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE 2023) (Accpt. Rate: 25.6%)
-        </div>
-        <div class="paper-links">
-          <a href="publications/Outage-Watch_ESECFSE23.pdf" style="display:inline-block;margin-right:10px;" >[PDF]</a><a href="https://dl.acm.org/doi/10.1145/3611643.3616316", style="display:inline-block;margin-right:10px;">[LINK]</a><a href="https://github.com/skejriwal44/Outage-Watch" style="display:inline-block;margin-right:10px;">[CODE]</a><a href="https://slideslive.com/39013986/outagewatch-early-prediction-of-outages-using-extreme-event-regularizer?ref=search-presentations", style="display:inline-block;margin-right:10px;">[VIDEO]</a>
-        </div>
-      </div>
-
-      <div class="row publication">
-        <div class="paper-title"><a href="">CausIL: Causal Graph for Instance Level Microservice Data</a></div>
-        <div class="paper-authors">
-          <span class="my-name">Sarthak Chakraborty</span>,
-          Shaddy Garg,
-          Shubham Agarwal,
-          Ayush Chauhan,
-          Shiv Kumar Saini
-        </div>
-        <div class="paper-conference">
-        In Proceedings of the Web Conference 2023 (WWW ’23) (Accpt. Rate: 19.2%)
-        </div>
-        <div class="paper-links">
-          <a href="publications/CausIL_WWW23.pdf" style="display:inline-block;margin-right:10px;" >[PDF]</a><a href="https://dl.acm.org/doi/10.1145/3543507.3583274", style="display:inline-block;margin-right:10px;">[LINK]</a><a href="https://youtu.be/uGE69IFt7fk" style="display:inline-block;margin-right:10px;">[VIDEO]</a><a href="https://github.com/sarthak-chakraborty/CausIL" style="display:inline-block;margin-right:10px;">[CODE]</a>
-        </div>
-      </div>
-
-      <div class="row publication">
-        <div class="paper-title"><a href="">Root Cause Analysis of Failures in Microservices through Causal Discovery</a></div>
-        <div class="paper-authors">
-          Muhammad Azam Ikram,
-          <span class="my-name">Sarthak Chakraborty</span>,
-          Subrata Mitra,
-          Shiv Kumar Saini,
-          Saurabh Bagchi,
-          Murat Kocaoglu
-        </div>
-        <div class="paper-conference">
-        In Advances in Neural Information Processing Systems (NeurIPS '22), 2022 (Accpt. Rate: 25.6%)
-        </div>
-        <div class="paper-links">
-          <a href="publications/RCD_NeurIPS22.pdf" style="display:inline-block;margin-right:10px;" >[PDF]</a><a href="https://proceedings.neurips.cc/paper_files/paper/2022/hash/c9fcd02e6445c7dfbad6986abee53d0d-Abstract-Conference.html" style="display:inline-block;margin-right:10px;" >[LINK]</a><a href="https://github.com/azamikram/rcd" style="display:inline-block;margin-right:10px;">[CODE]</a><a href="https://slideslive.com/38989929/root-cause-analysis-of-failures-in-microservices-through-causal-discovery?ref=search-presentations-root+ca" style="display:inline-block;margin-right:10px;">[VIDEO]</a>
-        </div>
-      </div>
-
-      <div class="row publication">
-        <div class="paper-title"><a href="">Proof of Federated Training: Accountable Cross-Network Model Training and Inference</a></div>
-        <div class="paper-authors">
-          <span class="my-name">Sarthak Chakraborty</span>,
-          Sandip Chakraborty
-        </div>
-        <div class="paper-conference">
-        In 2022 IEEE International Conference on Blockchain and Cryptocurrency (ICBC '22), 2022 (Accpt. Rate: 18.6%)
-        </div>
-        <div class="paper-links">
-          <a href="publications/PoFT_ICBC22.pdf" style="display:inline-block;margin-right:10px;" >[PDF]</a><a href="https://ieeexplore.ieee.org/document/9805548" style="display:inline-block;margin-right:10px;" >[LINK]</a><a href="https://github.com/sarthak-chakraborty/FL-CrossChain" style="display:inline-block;margin-right:10px;">[CODE]</a><a href="https://www.youtube.com/watch?v=bulyjzkdtCk&ab_channel=UbiNet" style="display:inline-block;margin-right:10px;">[VIDEO]</a>
-        </div>
-      </div>
-
-      <div class="row publication">
-        <div class="paper-title"><a href="">PARIMA: Viewport Adaptive 360-degree Video Streaming</a></div>
-        <div class="paper-authors">
-          Lovish Chopra*,
-          <span class="my-name">Sarthak Chakraborty*</span>,
-          Abhijit Mondal,
-          Sandip Chakraborty
-        </div>
-        <div class="paper-conference">
-        In Proceedings of the Web Conference 2021 (WWW ’21), pages 2379-2391, 2021 (Accpt. Rate: 20.6%)
-        </div>
-        <div class="paper-links">
-          <a href="publications/PARIMA_WWW21.pdf" style="display:inline-block;margin-right:10px;" >[PDF]</a><a href="https://doi.org/10.1145/3442381.3450070" style="display:inline-block;margin-right:10px;" >[LINK]</a><a href="https://github.com/sarthak-chakraborty/PARIMA" style="display:inline-block;margin-right:10px;">[CODE]</a><a href="https://www.youtube.com/watch?v=3Rbiz6igcd8" style="display:inline-block;margin-right:10px;">[VIDEO]</a>
-        </div>
-      </div>
-    </div> -->
-    <!-- Papers -->
-
-    <!-- Patents -->
-    <!-- <div class="row docs-section" id="patents">
-      <h4 class="docs-header">Patents</h4>
-      <div class="row publication">
-        <div class="paper-title"><a href="">Intelligent Use of Caching and Retrieval of Intermediate Noise for Resource Efficient Diffusion Models</a></div>
-        <div class="paper-authors">
-          Shubham Agarwal,
-          Subrata Mitra,
-          <span class="my-name">Sarthak Chakraborty</span>,
-          Srikrishna Karanam,
-          Koyel Mukherjee,
-          Shiv Kumar Saini
-        </div>
-        <div class="paper-conference">
-        Approved for Filing
-        </div>
-      </div>
-      
-      <div class="row publication">
-        <div class="paper-title"><a href="">LiveStreaming AI: Merchandisable Moment Identification and Offer Generation</a></div>
-        <div class="paper-authors">
-          Sunav Choudhary,
-          Atanu R. Sinha,
-          <span class="my-name">Sarthak Chakraborty</span>,
-          Sai Shashank Kalakonda,
-          Liza Dahiya,
-          Purnima Grover,
-          Kartavya Jain
-        </div>
-        <div class="paper-conference">
-        Filed (US Patent Application No.: 18/176,114) 
-        </div>
-      </div>
-
-      <div class="row publication">
-        <div class="paper-title"><a href="">Generating Concise and Common User Representations for Edge Systems from Event Sequence Data stored on Hub Systems</a></div>
-        <div class="paper-authors">
-          <span class="my-name">Sarthak Chakraborty</span>,
-          Sunav Choudhary,
-          Atanu R. Sinha,
-          Sapthotharan Nair,
-          Manoj Ghuhan A,
-          Yuvraj Gagneja,
-          Atharva Anand Joshi,
-          Atharv Tyagi,
-          Shivi Gupta
-        </div>
-        <div class="paper-conference">
-        Filed (US Patent Application No.: 17/849,320) <a href="https://patents.google.com/patent/US20230419339A1/en" style="display:inline-block;margin-right:10px;">[LINK]</a>
-        </div>
-      </div>
-
-    </div> -->
-    <!-- Patents -->
-
 
     <!-- Research Section -->
     <div class="row docs-section" id="internships">
@@ -421,7 +133,7 @@
 
           <div class="row">
             <h6 class="docs-header">University of Waterloo <small>(Mitacs Globalink Research Intern)</small></h6>
-            <h6 class="mentors"><a href="https://www.hansdesterck.net/">Hans de Sterck</a></h6>
+            <h6 class="mentors"><a href="http://www.hansdesterck.net/">Hans de Sterck</a></h6>
             <h6 class="internship-dates">May 2019 - July 2019</h6>
             <p>
             <strong>Topic:</strong> Advanced Optimization Methods for Machine Learning
@@ -447,8 +159,7 @@
       </div>
     </div>
     <!-- Research Section -->
-
-
+ 
 
     <!-- Teaching Section -->
     <div class="row docs-section" id="teaching">
@@ -459,7 +170,7 @@
             CS43002: Database Management Systems (IIT Kharagpur) - Spring 2021
           </div>
           <div class="teaching-job">Teaching Assistant</div>
-          <p><a href="https://www.facweb.iitkgp.ac.in/~shamik/spring2021/dbms/dbms2021.html" target="_blank">course website</a></p>
+          <p><a href="http://www.facweb.iitkgp.ac.in/~shamik/spring2021/dbms/dbms2021.html" target="_blank">course website</a></p>
         </div>
       </div>
 
@@ -470,7 +181,7 @@
           </div>
           <div class="teaching-job">Teaching Assistant</div>
           <p>
-          <a href="https://cse.iitkgp.ac.in/~skolay/TOC2020.html" target="_blank">course website</a></p>
+          <a href="http://cse.iitkgp.ac.in/~skolay/TOC2020.html" target="_blank">course website</a></p>
         </div>
       </div>
     </div>
@@ -503,14 +214,12 @@
     </div>
     <!-- Blogs -->
 
-
-
     <!-- Contact -->
     <div class="row docs-section" id="contact">
       <h4 class="docs-header">Contact</h4>
         <h6 class="docs-header">Email:</h6>
         <p>
-        sc134 &lt;at&gt; illinois &lt;dot&gt; edu
+        sarchakr &lt;at&gt; adobe &lt;dot&gt; com
         <br> &lt;first_name&gt;.&lt;last_name&gt; &lt;at&gt; gmail &lt;dot&gt; com
         <br>
         Additionally, you can also reach out to me via any of the social platforms like <a href="https://www.facebook.com/sarthak.chakraborty.52" target="_blank">Facebook</a>, <a href="https://www.linkedin.com/in/sarthak-chakraborty-345929132/" target="_blank">LinkedIn</a> or <a href="https://twitter.com/sarthak0407" target="_blank">Twitter</a>
@@ -528,15 +237,11 @@
 </div>
 <!-- Primary Page Layout -->
 
-
-
 <!-- Scripts
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script src="js/site.js"></script>
-<script src="js/functions.js"></script>
+
 <!-- Google Analytics -->
-<script>
+<!-- <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -545,7 +250,7 @@
   ga('create', 'UA-55538454-2', 'auto');
   ga('send', 'pageview');
 
-</script>
+</script> -->
 
 </body>
 </html>
