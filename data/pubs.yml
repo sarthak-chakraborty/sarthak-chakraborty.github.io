@@ -1,3 +1,21 @@
+- title: "Approximate Caching for Efficiently Serving Diffusion Models"
+  authors:
+    - name: Shubham Agarwal
+    - name: Subrata Mitra
+    - name: Sarthak Chakraborty
+      me: True
+    - name: Srikrishna Karanam
+    - name: Koyel Mukherjee
+    - name: Shiv Saini
+  conf: "In 21st USENIX Symposium on Networked Systems Design and Implementation (NSDI '24)"
+  links:
+    - text: PDF
+      link: ../publications/Nirvana_NSDI24.pdf
+    - text: LINK
+      link: "#"
+    - text: CODE
+      link: "#"
+
 - title: "ESRO: Experience Assisted Service Reliability against Outages"
   authors:
     - name: Sarthak Chakraborty
@@ -13,7 +31,7 @@
     - text: PDF
       link: ../publications/ESRO_ASE23.pdf
     - text: LINK
-      link: https://conf.researchr.org/details/ase-2023/ase-2023-papers/93/ESRO-Experience-Assisted-Service-Reliability-against-Outages
+      link: https://ieeexplore.ieee.org/abstract/document/10298416
     - text: CODE
       link: https://github.com/sarthak-chakraborty/ESRO
 
@@ -30,9 +48,11 @@
   conf: "In ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE 2023) (Accpt. Rate: 26.5%)"
   links:
     - text: PDF
-      link: ../publications/Outage-Watch_ESEC/FSE23.pdf
+      link: ..publications/Outage-Watch_ESECFSE23.pdf
     - text: LINK
       link: https://dl.acm.org/doi/10.1145/3611643.3616316
+    - text: VIDEO
+      link: https://slideslive.com/39013986/outagewatch-early-prediction-of-outages-using-extreme-event-regularizer?ref=search-presentations
     - text: CODE
       link: https://github.com/skejriwal44/Outage-Watch
 
