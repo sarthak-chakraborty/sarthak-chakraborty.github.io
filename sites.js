@@ -1,4 +1,3 @@
-// const jsyaml = require('js-yaml');
 
 var $nav;
 var $navbarToggle;
