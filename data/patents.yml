@@ -1,3 +1,14 @@
+- title: "Intelligent Use of Caching and Retrieval of Intermediate Noise for Resource Efficient Diffusion Models"
+  authors:
+    - name: Shubham Agarwal
+    - name: Subrata Mitra
+    - name: Sarthak Chakraborty
+      me: True
+    - name: Srikrishna Karanam
+    - name: Koyel Mukherjee
+    - name: Shiv Saini
+  status: "Accepted for Filing"
+
 - title: "LiveStreaming AI: Merchandisable Moment Identification and Offer Generation"
   authors:
     - name: Sunav Choudhary
