@@ -9,7 +9,7 @@
     - name: Shiv Saini
   status: "Accepted for Filing"
 
-- title: "LiveStreaming AI: Merchandisable Moment Identification and Offer Generation"
+- title: "Livestream Key Moment Identification"
   authors:
     - name: Sunav Choudhary
     - name: Atanu R. Sinha
@@ -20,6 +20,9 @@
     - name: Purnima Grover
     - name: Kartavya Jain
   status: "Filed (US Patent Application No.: 18/176,114)"
+  links:
+    - text: "LINK"
+      link: https://www.freepatentsonline.com/y2024/0292046.html
 
 - title: "Generating Concise and Common User Representations for Edge Systems from Event Sequence Data stored on Hub Systems"
   authors:
@@ -34,4 +37,7 @@
     - name: Atharva Anand Joshi
     - name: Shivi Gupta
   status: "Filed (US Patent Application No.: 17/849,320)"
+  links:
+    - text: "LINK"
+      link: https://patents.google.com/patent/US20230419339A1/en
   
