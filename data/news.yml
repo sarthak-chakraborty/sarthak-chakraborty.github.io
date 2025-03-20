@@ -1,19 +1,22 @@
-- date: 19/01/24
-  update: Will be joining Microsoft Research, Redmond as a Research Intern for Summer 2024!
+- date: 03/20/25
+  update: Will be joining IBM Research (Yorktown Heights) for Summer Internship 2025!
 
-- date: 07/12/23
+- date: 05/18/24
+  update: Joined Microsoft Research, Redmond as a Research Intern for Summer 2024!
+
+- date: 12/07/23
   update: New Paper accepted at NSDI 2024 on Approximate Caching for Diffusion Models!
 
-- date: 06/12/23
+- date: 12/06/23
   update: Presented our Paper "Outage-Watch Early Prediction of Outages using Extreme Event Regularizer" at ESEC/FSE 2023!
 
-- date: 20/10/23
+- date: 10/20/23
   update: Received ACM SIGSOFT CAPS Student Travel Grant to attend ESEC/FSE 2023!
 
-- date: 16/08/23
+- date: 08/16/23
   update: Receipent of the Illinois Distinguished Fellowship!
 
-- date: 16/08/23
+- date: 08/16/23
   update: 'Started a new phase in my career as a CS PhD student at the University of Illinois at Urbana-Champaign!'
 
 - date: 07/07/23
@@ -22,26 +25,26 @@
 - date: 05/05/23
   update: 'New paper accepted at ESEC/FSE 2023 on Outage Forecasting!'
 
-- date: 30/01/23
+- date: 01/30/23
   update: 'Promoted to the position of Research Associate 2 at Adobe Research!'
 
-- date: 25/01/23
+- date: 01/25/23
   update: ' New paper acceptance at <a href="https://dl.acm.org/doi/10.1145/3543507.3583274">WWW 2023</a> on building a causal graph for system diagnosis using instance-level data!'
 
-- date: 14/09/22
+- date: 09/14/22
   update: 'New paper on <a href="https://openreview.net/pdf?id=weoLjoYFvXY">Root Cause Analysis using Causal Discovery</a> accepted at NeurIPS 2022!'
 
-- date: 20/02/22
+- date: 02/20/22
   update: 'New paper on <a href="https://ieeexplore.ieee.org/document/9805548">Federated Training across different silos via Cross-Chain Interoperability</a> accepted at ICBC 2022!'
 
-- date: 13/07/21
+- date: 07/13/21
   update: 'Excited to start my first job as a Research Associate at Adobe, India.'
 
-- date: 15/01/21
+- date: 01/15/21
   update: 'My maiden paper on <a href="https://doi.org/10.1145/3442381.3450070">Viewport Adaptive 360 degree Video Streaming</a> accepted at WWW 2021!'
 
-- date: 25/11/20
+- date: 11/25/20
   update: 'New <a href="https://medium.com/aosd-reading-assignment/thread-management-and-thread-scheduling-6ce1ad4fc325" target="blank">blog post</a> comparing several methods of Thread Management and Thread Scheduling.'
 
-- date: 13/10/20
+- date: 10/13/20
   update: 'New <a href="https://medium.com/aosd-reading-assignment/scheduling-algorithms-for-shared-memory-multi-processor-systems-9c62208ce10c" target="blank">blog post</a> discussing Shared-Memory Multiprocessor systems and comparing various scheduling algorithms.'
