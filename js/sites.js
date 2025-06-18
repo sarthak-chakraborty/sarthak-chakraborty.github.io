@@ -96,7 +96,7 @@ function loadPubs() {
           });
           pubHTML += `<div class="row publication">
             <div class="paper-title">
-              <a href=#>${pub['title']}</a>
+              <strong>${pub['title']}</strong>
             </div>
             <div class="paper-authors">${authorList}</div>
             ${'conf' in pub ?
