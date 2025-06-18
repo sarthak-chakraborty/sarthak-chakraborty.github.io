@@ -179,10 +179,11 @@ td {
 /* Publications */
 .publication {
   margin-top: 2rem; }
-/*.paper-title {
-  font-weight: bold; }*/
+.paper-title {
+  font-weight: bold; }
 .my-name {
-  font-weight: 600; }
+  font-weight: 600; 
+  text-decoration: underline; }
 .paper-conference {
   font-style: italic; }
 

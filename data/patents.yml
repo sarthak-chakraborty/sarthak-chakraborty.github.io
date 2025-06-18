@@ -20,9 +20,7 @@
     - name: Purnima Grover
     - name: Kartavya Jain
   status: "Granted (US Patent No.: 12294755)"
-  links:
-    - text: "LINK"
-      link: https://patents.google.com/patent/US12294755B2/en
+  link: https://patents.google.com/patent/US12294755B2/en
 
 - title: "Generating Concise and Common User Representations for Edge Systems from Event Sequence Data stored on Hub Systems"
   authors:
@@ -37,7 +35,5 @@
     - name: Atharva Anand Joshi
     - name: Shivi Gupta
   status: "Granted (US Patent No.: 12182829)"
-  links:
-    - text: "LINK"
-      link: https://patents.google.com/patent/US12182829B2/en
+  link: https://patents.google.com/patent/US12182829B2/en
   
