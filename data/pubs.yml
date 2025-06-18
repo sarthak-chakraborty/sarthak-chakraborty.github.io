@@ -1,3 +1,16 @@
+- title: "Generative Caching for Structurally Similar Prompts and Responses"
+  authors:
+    - name: Sarthak Chakraborty
+      me: True
+    - name: Xuchao Zhang
+    - name: Chetan Bansal
+    - name: Indranil Gupta
+    - name: Suman Nath
+  conf: Under Submission
+  links:
+    - text: PDF
+      link: ../publications/GenCache_NeurIPS25_submission.pdf
+    
 - title: "Approximate Caching for Efficiently Serving Diffusion Models"
   authors:
     - name: Shubham Agarwal
@@ -13,8 +26,6 @@
       link: ../publications/Nirvana_NSDI24.pdf
     - text: LINK
       link: https://www.usenix.org/conference/nsdi24/presentation/agarwal-shubham
-    - text: CODE
-      link: "#"
 
 - title: "ESRO: Experience Assisted Service Reliability against Outages"
   authors:
