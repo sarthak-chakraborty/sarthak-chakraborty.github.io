@@ -2,10 +2,10 @@
   authors:
     - name: Sarthak Chakraborty
       me: True
+    - name: Suman Nath
     - name: Xuchao Zhang
     - name: Chetan Bansal
     - name: Indranil Gupta
-    - name: Suman Nath
   conf: "In Advances in Neural Information Processing Systems (NeurIPS '25), 2025 (Accpt. Rate: 24.52%)"
   links:
     - text: PDF
@@ -16,15 +16,17 @@
     - name: Chirag Shetty
     - name: Sarthak Chakraborty
       me: True
+    - name: Hubertus Franke
     - name: Larisa Shwartz
     - name: Chandra Narayanaswami
-    - name: Hubertus Franke
     - name: Indranil Gupta
     - name: Saurabh Jha
   conf: "In Proceedings of the 2025 ACM Symposium on Cloud Computing (SoCC '25), 2025"
   links:
     - text: PDF
-      link: "#"
+      link: ../publications/YAAS_SoCC25.pdf
+    - text: LINK
+      link: https://arxiv.org/abs/2510.10747
     
 - title: "Approximate Caching for Efficiently Serving Diffusion Models"
   authors:
