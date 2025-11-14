@@ -6,7 +6,7 @@
     - name: Xuchao Zhang
     - name: Chetan Bansal
     - name: Indranil Gupta
-  conf: "In Advances in Neural Information Processing Systems (NeurIPS '25), 2025 (Accpt. Rate: 24.52%)"
+  conf: "NeurIPS 2025 (Accpt. Rate: 24.52%)"
   links:
     - text: PDF
       link: ../publications/GenCache_NeurIPS25_submission.pdf
@@ -25,7 +25,7 @@
     - name: Chandra Narayanaswami
     - name: Indranil Gupta
     - name: Saurabh Jha
-  conf: "In Proceedings of the 2025 ACM Symposium on Cloud Computing (SoCC '25), 2025"
+  conf: "SoCC 2025"
   links:
     - text: PDF
       link: ../publications/YAAS_SoCC25.pdf
@@ -41,7 +41,7 @@
     - name: Srikrishna Karanam
     - name: Koyel Mukherjee
     - name: Shiv Saini
-  conf: "In 21st USENIX Symposium on Networked Systems Design and Implementation (NSDI '24) (Accpt. Rate: 18.6%)"
+  conf: "NSDI 2024 (Accpt. Rate: 18.6%)"
   links:
     - text: PDF
       link: ../publications/Nirvana_NSDI24.pdf
@@ -58,7 +58,7 @@
     - name: Udit Narayan Pandey
     - name: Videh Aggarwal
     - name: Shiv Saini
-  conf: "In 38th IEEE/ACM International Conference on Automated Software Engineering (ASE 2023) (Accpt. Rate: 21.3%)"
+  conf: "ASE 2023 (Accpt. Rate: 21.3%)"
   links:
     - text: PDF
       link: ../publications/ESRO_ASE23.pdf
@@ -77,7 +77,7 @@
     - name: Chahat Jain
     - name: Ashritha Gonuguntla
     - name: Shiv Saini
-  conf: "In ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE 2023) (Accpt. Rate: 26.5%)"
+  conf: "ESEC/FSE 2023 (Accpt. Rate: 26.5%)"
   links:
     - text: PDF
       link: ..publications/Outage-Watch_ESECFSE23.pdf
@@ -96,7 +96,7 @@
     - name: Shubham Agarwal
     - name: Ayush Chauhan
     - name: Shiv Saini
-  conf: "In Proceedings of the Web Conference 2023 (WWW ’23) (Accpt. Rate: 19.2%)"
+  conf: "The WebConf (WWW) 2023 (Accpt. Rate: 19.2%)"
   links:
     - text: PDF
       link: ../publications/CausIL_WWW23.pdf
@@ -116,7 +116,7 @@
     - name: Shiv Saini
     - name: Saurabh Bagchi
     - name: Murat Kocaoglu
-  conf: "In Advances in Neural Information Processing Systems (NeurIPS '22), 2022 (Accpt. Rate: 25.6%)"
+  conf: "NeurIPS 2022 (Accpt. Rate: 25.6%)"
   links:
     - text: PDF
       link: ../publications/RCD_NeurIPS22.pdf
@@ -132,7 +132,7 @@
     - name: Sarthak Chakraborty
       me: True
     - name: Sandip Chakraborty
-  conf: "In 2022 IEEE International Conference on Blockchain and Cryptocurrency (ICBC '22), 2022 (Accpt. Rate: 18.6%)"
+  conf: "ICBC 2022 (Accpt. Rate: 18.6%)"
   links:
     - text: PDF
       link: ../publications/PoFT_ICBC22.pdf
@@ -150,7 +150,7 @@
       me: True
     - name: Abhijit Mondal
     - name: Sandip Chakraborty
-  conf: "In Proceedings of the Web Conference 2021 (WWW ’21), pages 2379-2391, 2021 (Accpt. Rate: 20.6%)"
+  conf: "The WebConf (erstwhile WWW) 2021 (Accpt. Rate: 20.6%)"
   links:
     - text: PDF
       link: ../publications/PARIMA_WWW21.pdf
