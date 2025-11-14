@@ -10,6 +10,10 @@
   links:
     - text: PDF
       link: ../publications/GenCache_NeurIPS25_submission.pdf
+    - text: LINK
+      link: https://openreview.net/forum?id=MHGViOjZ27
+    - text: CODE
+      link: https://github.com/sarthak-chakraborty/GenCache
 
 - title: "CPU-Limits kill Performance: Time to rethink Resource Control"
   authors:
@@ -119,9 +123,9 @@
     - text: LINK
       link: https://proceedings.neurips.cc/paper_files/paper/2022/hash/c9fcd02e6445c7dfbad6986abee53d0d-Abstract-Conference.html
     - text: VIDEO
-      link: https://github.com/azamikram/rcd
-    - text: CODE
       link: https://slideslive.com/38989929/root-cause-analysis-of-failures-in-microservices-through-causal-discovery?ref=search-presentations-root+ca
+    - text: CODE
+      link: https://github.com/azamikram/rcd
 
 - title: "Proof of Federated Training: Accountable Cross-Network Model Training and Inference"
   authors:
