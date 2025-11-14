@@ -39,7 +39,7 @@ function loadNews() {
         </tr>`;
         if (idx == 5) {
           newsTableHTML += `<tr>
-              <td><a href="javascript:toggleVis('morenews')">show more</a></td>
+              <td><a href="javascript:toggleVis('morenews', 'show-more-link')" id="show-more-link">show more</a></td>
             </tr>
           </table>
           <table id="morenews" style="display: none;">`;

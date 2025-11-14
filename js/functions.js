@@ -1,6 +1,6 @@
 function showEmail() {
   document.getElementById("email-link").innerHTML =
-    "danfu [at] stanford [dot] edu"    
+    "sc134 [at] illinois [dot] edu"    
 }
 
 function toggleVis(id) {
