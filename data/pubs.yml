@@ -30,7 +30,7 @@
     - text: PDF
       link: ../publications/YAAS_SoCC25.pdf
     - text: LINK
-      link: https://arxiv.org/abs/2510.10747
+      link: https://dl.acm.org/doi/pdf/10.1145/3772052.3772219
     
 - title: "Approximate Caching for Efficiently Serving Diffusion Models"
   authors:
